@@ -19,4 +19,4 @@ def trainAPI():
     return jsonify(embedding_service.train(payload))
 
 if __name__ == "__main__":
-    app.run(threaded=True, host="0.0.0.0", port=5001)
+    app.run(threaded=True, host="0.0.0.0", port=5000)
